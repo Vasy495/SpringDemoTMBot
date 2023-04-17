@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 
 @Configuration
-@Data //Автоматически создает конструкторы для класса
+@Data
 @PropertySource("application.properties")
 public class BotConfig {
     @Value("${bot.name}")
