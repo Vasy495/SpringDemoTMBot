@@ -21,7 +21,7 @@ public class TelegramBot extends TelegramLongPollingBot /*WebHookBot - всег�
 
     @Override
     public String getBotToken() {
-        return config.getToken();
+        return config.getBotToken();
     }
 
     @Override
